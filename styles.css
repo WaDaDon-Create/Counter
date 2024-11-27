@@ -1,0 +1,69 @@
+body {
+    background-image: url(images/abstract-textured-backgound.jpg);
+    background-size: cover;
+    text-align: center;
+}
+
+.counterBox {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 60px;
+    width: 800px;
+    height: 800px;
+    border: 5px solid grey; 
+    margin-top: 200px;
+    color: white;
+    background-color: black;
+    opacity: 0.65; 
+    text-shadow: 2px 2px 2px blue;
+    border-radius: 50%;
+}
+
+h1{
+    margin-top: 90px;
+}
+
+h2 {
+    margin-top: 70px;
+}
+
+p {
+    font-size: 30px;
+}
+
+button {
+    margin-top: 5px;
+    font-size: x-large;
+    padding: 20px 50px;
+    border-radius: 10px;
+    border: 2px solid blue;
+}
+
+button:hover {
+    background-color: skyblue;
+    width: 130px;
+    height: 80px;
+}
+
+.save{
+    height: 70px;
+    width: 150px;
+}
+
+.save:hover {
+    height: 75px;
+    width: 155px;
+    background-color: skyblue;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+#plus {
+    margin-right: 20px;
+}
